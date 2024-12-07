@@ -1,0 +1,95 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar-links .nav-link {
+    margin-left: 20px;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .highlight-box {
+    background: black;
+    padding: 5px 10px;
+    opacity: 0.8;
+  }
+  
+  .hero-subtext {
+    color: lightgray;
+  }
+  
+  /* Section Titles */
+  .section {
+    margin: 40px 0;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Grid */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    position: relative;
+  }
+  
+  .project-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 5px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+  }
+  
